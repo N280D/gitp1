@@ -9,7 +9,9 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
   <style>
-  
+    body{
+      background-color:#E9DECB;
+    }
     h1{
       font-style: italic;
       font-family: cursive;
@@ -22,25 +24,37 @@
       margin-top: 20px;
     }
    .card{
-     margin-bottom: 1rem;
-    
+     margin: 10px;
+     padding:10px;
    }
+   .bg-light{
+     background-color:#412b03;
+   }  
+  .navbar-brand
+   {
+    margin-left: 10px;
+   }
+  
   </style>
 </head>
 <body>
  
     <div class="container-fluid">
       <header>
-        <h1 Class="style">Association de Calligraphie</h1>
+        <h1 class="style">Association de Calligraphie</h1>
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="PagePrincipal.html.html"><img src="styloplume.jpg" alt="Stylo plume logo"height="100"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand" href="PagePrincipal.html.html"><img src="styloplume.jpg"
+             alt="Stylo plume logo"height="100"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=
+            "#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="PagePrincipal.html.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="Evenement.html">Les évenement à venir</a>
+                <a class="nav-item nav-link" href="Evenement.html" target="
+                _blank">Les évenement à venir</a>
           
               </div>
             </div>
@@ -53,12 +67,13 @@
   </div>
 
   <section>
-      <div class="container-fluid">
+      <div class="container">
         <div class="row row-cols-lg-3 row-cols-md-3">
           
             <div class="card mt-2" style="width: 18rem">
             <img class="card-img-top" src="ipadcalli.jpg" alt="Card image cap">
             <div class="card-body">
+                </svg>Les évenement à venir</a>
             <p class="card-text">La Calligraphie est un art intemportel repris dans les derniers 
               technologie
             </p>
@@ -81,10 +96,18 @@
                 <p class="card-text">Le matériel pour débuter
                 <!--liste boostrap-->
                   <ul class="list-group">
-                    <li class="list-group-item">-Le porte plume</li>
-                    <li class="list-group-item">-L'encre 4.2.2 encre de chine</li>
-                    <li class="list-group-item">-Des feutres ou des pinceau</li>
-                    <li class="list-group-item">-Du papier</li>
+                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
+                      <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
+                    </svg>Le porte plume</li>
+                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
+                      <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
+                    </svg>L'encre 4.2.2 encre de chine</li>
+                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
+                      <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
+                    </svg>Des feutres ou des pinceau</li>
+                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
+                      <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
+                    </svg>Du papier</li>
                   </ul>
                 
                 </p>
@@ -168,6 +191,7 @@
 
           <div class="text-center text-md-left">
               <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+              <!--erreur au moment de la soumission revoir avec PHP-->
           </div>
           <div class="status"></div>
       </div>
